@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+
+/* ///// LAYOUT ///// */
+
+html { 
+  background: url(images/hags.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-fluid {
+  	margin-right: auto;
+  	margin-left: auto;
+  }
+
+ a.selected {
+ 	color: red;
+ }
+
+h1, h2 {
+	font-family: 'Abel', sans-serif;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+
+#logo {
+	display: none;
+	border-right: 1px solid black;
+	padding-right: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: -10px;
+	border-radius: 25px;
+	position: absolute;
+}
+
+/*body {
+	background: #000;
+}*/
+
+#carousel {
+	border-top: 1px solid black;
+	/*margin-top: 10px;*/
+
+}
+
+header {
+	/*background-color: white;*/
+	height: 100px;
+	padding-bottom: 30px;
+}
+
+.row {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.col-12 {
+	margin-top: 30px;
+	padding: 200px;
+	border: 1px dotted black;
+}
+
+/* ///// NAVBAR ///// */
+
+#navbar {
+	width: 25%;
+	display: none;
+	position: absolute;
+	top: 15px;
+	float: right;
+	right: 30px;
+	margin-right: 40px;
+	border-right: 1px solid black;
+	padding-right: 10px;
+}
+
+nav a {
+	display: block;
+	text-align: right;
+	font-size: 1.2em;
+	line-height: 18px;
+	font-family: 'Abel', sans-serif;
+}
+
+#about {
+	padding-top: 60px;
+}
+
+#social {
+	margin-top: 2%;
+}
+
+header {
+	background: #fff;
+	/*border-radius: 20px;*/
+	display: block;
+}
+
+.aboutme {
+	text-align: justify;
+}
+
+#navbar a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#navbar a:visited {
+	color: black;
+}
+
+#navbar a:active {
+	color: black;	
+}
+
+#navbar a:hover {
+	color: aqua;
+}
+
+
+/* ////CLEARFIX//// */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { 
+	display: inline-block; }
+
+
