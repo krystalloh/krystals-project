@@ -68,6 +68,7 @@ header {
 	margin-top: 18px;
 	padding: 200px;
 	border: 3px dotted black;
+	text-align: center;
 }
 
 /* ///// NAVBAR ///// */
@@ -78,7 +79,7 @@ header {
 	position: absolute;
 	top: 20px;
 	float: right;
-	right: 30px;
+	/*right: 20px;*/
 	margin-right: 40px;
 	border-right: 1px solid black;
 	padding-right: 10px;
