@@ -4,11 +4,11 @@
 /* ///// LAYOUT ///// */
 
 html { 
-  background: url(images/hags.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+  background: url(../images/birdcover.jpg) no-repeat center center fixed; 
+/*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .container-fluid {
@@ -37,7 +37,7 @@ h2 {
 	border-right: 1px solid black;
 	padding-right: 30px;
 	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-left: 20px;
 	margin-right: -10px;
 	border-radius: 25px;
@@ -48,27 +48,26 @@ h2 {
 	background: #000;
 }*/
 
-#carousel {
+/*#carousel {
 	border-top: 1px solid black;
-	/*margin-top: 10px;*/
+	/*margin-top: 10px;
 
-}
+}*/
 
 header {
-	/*background-color: white;*/
+	background-color: white;
 	height: 100px;
 	padding-bottom: 30px;
-}
-
-.row {
-	display: inline-block;
-	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 15px;
 }
 
 .col-12 {
-	margin-top: 30px;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 18px;
 	padding: 200px;
-	border: 1px dotted black;
+	border: 3px dotted black;
 }
 
 /* ///// NAVBAR ///// */
@@ -77,7 +76,7 @@ header {
 	width: 25%;
 	display: none;
 	position: absolute;
-	top: 15px;
+	top: 20px;
 	float: right;
 	right: 30px;
 	margin-right: 40px;
@@ -99,10 +98,15 @@ nav a {
 
 #social {
 	margin-top: 2%;
+	margin-top: -10px;
+	float: left;
+	/*white-space: no-wrap;
+	text-indent: 100%;
+	overflow: hidden;*/
 }
 
 header {
-	background: #fff;
+	/*background: #fff;*/
 	/*border-radius: 20px;*/
 	display: block;
 }
@@ -126,6 +130,18 @@ header {
 
 #navbar a:hover {
 	color: aqua;
+}
+
+
+
+/*a.twitter, a.tumblr, a.facebook {
+	background: url(../images/subtle-social-meida-icons.jpg) no-repeat;*/
+
+
+footer {
+	float: right;
+	font-size: 0.80em;
+	margin-top: -10px;
 }
 
 
