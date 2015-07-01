@@ -4,6 +4,10 @@
 	<meta charset="utf-8">
 	<title>Meghan Hicks Design - Home</title>
 	<link rel="stylesheet" href="css/style.css">
+	<!-- FANCYBOX -->
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
 	<!-- <link href="css/hover.css" rel="stylesheet" media="all"> -->
 </head>
 <body>
@@ -29,9 +33,10 @@
 	</header>
 		<section id="carousel">
 			<div class="container">
-				<div class="col-12">
+				<div class="col-12" class="js-packery"
+  data-packery-options='{ "itemSelector": ".item", "gutter": 10 }'>
 
-				A Flickr of design stuff goes here.
+				
 
 				</div> <!-- COL-XS-12 -->
 			</div> <!-- ROW -->
@@ -58,6 +63,12 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script src="js/project.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.1/packery.pkgd.min.js"></script>
+
+    <!-- FANCYBOX -->
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 
 </body>
 </html>
