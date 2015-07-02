@@ -11,9 +11,8 @@ html {
   background-size: cover;*/
 }
 
-.container-fluid {
-  	margin-right: auto;
-  	margin-left: auto;
+.container {
+  	margin: 0 auto;
   }
 
  a.selected {
@@ -64,16 +63,42 @@ header {
 }
 
 .col-12 {
-	
+	position: absolute;
+	margin: 0 auto;
 	margin-right: 25%;
 	margin-left: 25%;
 	margin-top: 18px;
-	/*padding: 200px;*/
+	padding: 30px;
 	border: 3px solid white;
 	border-radius: 15px;
 	background-color: rgba(0, 0, 0, 0.75); 
 	/*text-align: center;*/
 }
+
+.photography_box {
+	font-family: 'Abel', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	color: white;
+}
+
+.about_box {
+	font-family: 'Abel', sans-serif;
+	font-size: 1em;
+	text-align: right;
+	color: white;
+}
+
+.about_box img {
+	float: left;
+	border: 1px solid black;
+	border-radius:;
+}
+
+.megabout {
+	margin-top: 45px;
+}
+
 
 /* ///// NAVBAR ///// */
 
@@ -144,9 +169,10 @@ header {
 
 
 footer {
+	display: inline-block;
 	float: right;
 	font-size: 0.80em;
-	margin-top: -10px;
+	margin-top: 300px;
 }
 
 
